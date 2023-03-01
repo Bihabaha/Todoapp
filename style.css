@@ -1,0 +1,40 @@
+body{
+    background: #352f5b;
+}
+.container{
+    max-width: 400px;;
+}
+
+input[type=text],
+input[type=text]:focus{
+color: aliceblue;
+border: none;
+background-color:#423a6f;
+max-width: 400px;
+}
+
+
+
+.todos li{
+    background: #423a6f;
+}
+.delete{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none!important;
+}
+
+
+
+.delete{
+    border: orangered 2px solid ;
+    border-radius: 30px;
+    padding: 5px;
+    color: aqua!important;
+}
+.delete:hover{
+    background-color: aliceblue;
+    color:orangered!important;
+}
